@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RZBdQoWOcsI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sahma\\source\\repos\\OmniCommunicationSystem\\Omni.Domain\\Omni.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sahma\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

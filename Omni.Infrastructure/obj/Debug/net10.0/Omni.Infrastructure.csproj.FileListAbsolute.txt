@@ -1,0 +1,17 @@
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\bin\Debug\net10.0\Omni.Infrastructure.deps.json
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\bin\Debug\net10.0\Omni.Infrastructure.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\bin\Debug\net10.0\Omni.Infrastructure.pdb
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\bin\Debug\net10.0\Omni.Application.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\bin\Debug\net10.0\Omni.Domain.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\bin\Debug\net10.0\Omni.Application.pdb
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\bin\Debug\net10.0\Omni.Domain.pdb
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Infrastructure.AssemblyInfo.cs
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Inf.EB5670C2.Up2Date
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Infrastructure.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\refint\Omni.Infrastructure.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Infrastructure.pdb
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\ref\Omni.Infrastructure.dll

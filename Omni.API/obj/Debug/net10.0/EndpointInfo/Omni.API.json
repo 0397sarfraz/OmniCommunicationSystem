@@ -1,0 +1,70 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "Omni.API | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7230"
+    },
+    {
+      "url": "http://localhost:5175"
+    }
+  ],
+  "paths": {
+    "/api/Call/Make-call": {
+      "post": {
+        "tags": [
+          "Call"
+        ],
+        "parameters": [
+          {
+            "name": "toNumber",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Voice/Gather-Input": {
+      "post": {
+        "tags": [
+          "Voice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Voice/ProcessInput": {
+      "post": {
+        "tags": [
+          "Voice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Call"
+    },
+    {
+      "name": "Voice"
+    }
+  ]
+}

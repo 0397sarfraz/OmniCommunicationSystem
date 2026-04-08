@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "Omni.API.Controllers.CallController",
+    "Method": "MakeCall",
+    "RelativePath": "api/Call/Make-call",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "toNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Omni.API.Controllers.VoiceController",
+    "Method": "GatherInput",
+    "RelativePath": "api/Voice/Gather-Input",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Omni.API.Controllers.VoiceController",
+    "Method": "ProcessInput",
+    "RelativePath": "api/Voice/ProcessInput",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

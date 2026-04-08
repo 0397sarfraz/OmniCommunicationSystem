@@ -1,0 +1,15 @@
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\bin\Debug\net10.0\Omni.Application.deps.json
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\bin\Debug\net10.0\Omni.Application.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\bin\Debug\net10.0\Omni.Application.pdb
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\bin\Debug\net10.0\Omni.Domain.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\bin\Debug\net10.0\Omni.Domain.pdb
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.Application.csproj.AssemblyReference.cache
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.Application.AssemblyInfoInputs.cache
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.Application.AssemblyInfo.cs
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.Application.csproj.CoreCompileInputs.cache
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.App.C4D7B93B.Up2Date
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.Application.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\refint\Omni.Application.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.Application.pdb
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\ref\Omni.Application.dll

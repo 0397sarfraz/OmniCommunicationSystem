@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Omni.API/Omni.API.csproj" />
+  <Project Path="Omni.Application/Omni.Application.csproj" />
+  <Project Path="Omni.Domain/Omni.Domain.csproj" />
+  <Project Path="Omni.Infrastructure/Omni.Infrastructure.csproj" />
+  <Project Path="Omni.Persistence/Omni.Persistence.csproj" />
+</Solution>
