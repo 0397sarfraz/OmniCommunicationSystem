@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Omni.Application\Omni.Application.csproj" />
+    <ProjectReference Include="..\Omni.Persistence\Omni.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -13,3 +13,4 @@ C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\n
 C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\refint\Omni.Application.dll
 C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.Application.pdb
 C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\ref\Omni.Application.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Application\obj\Debug\net10.0\Omni.Application.sourcelink.json

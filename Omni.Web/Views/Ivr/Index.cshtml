@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Omni.Domain.Entities.IvrMenu>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>IVR</h4>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table id="ivrTbl" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Digit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActionType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ActionValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Company)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Digit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActionType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ActionValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Company.Name)
+            </td>
+            <td>            
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@section Scripts {
+    <script>
+        $(document).ready(function(){
+            $("#ivrTbl").DataTable();
+        })
+    </script>
+}

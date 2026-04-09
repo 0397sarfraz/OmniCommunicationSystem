@@ -1236,6 +1236,9 @@
             "projectReferences": {
               "C:\\Users\\sahma\\source\\repos\\OmniCommunicationSystem\\Omni.Application\\Omni.Application.csproj": {
                 "projectPath": "C:\\Users\\sahma\\source\\repos\\OmniCommunicationSystem\\Omni.Application\\Omni.Application.csproj"
+              },
+              "C:\\Users\\sahma\\source\\repos\\OmniCommunicationSystem\\Omni.Persistence\\Omni.Persistence.csproj": {
+                "projectPath": "C:\\Users\\sahma\\source\\repos\\OmniCommunicationSystem\\Omni.Persistence\\Omni.Persistence.csproj"
               }
             }
           }

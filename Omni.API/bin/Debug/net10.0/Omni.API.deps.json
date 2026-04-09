@@ -833,6 +833,7 @@
       "Omni.Infrastructure/1.0.0": {
         "dependencies": {
           "Omni.Application": "1.0.0",
+          "Omni.Persistence": "1.0.0",
           "Twilio": "7.14.3"
         },
         "runtime": {

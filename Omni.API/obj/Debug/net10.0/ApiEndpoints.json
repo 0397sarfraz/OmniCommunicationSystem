@@ -17,8 +17,8 @@
   },
   {
     "ContainingType": "Omni.API.Controllers.VoiceController",
-    "Method": "GatherInput",
-    "RelativePath": "api/Voice/Gather-Input",
+    "Method": "CallStatus",
+    "RelativePath": "api/Voice/call-status",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -27,8 +27,44 @@
   },
   {
     "ContainingType": "Omni.API.Controllers.VoiceController",
-    "Method": "ProcessInput",
-    "RelativePath": "api/Voice/ProcessInput",
+    "Method": "PlayRecording",
+    "RelativePath": "api/Voice/play-recording",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "url",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Omni.API.Controllers.VoiceController",
+    "Method": "Process",
+    "RelativePath": "api/Voice/process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Omni.API.Controllers.VoiceController",
+    "Method": "RecordingCallback",
+    "RelativePath": "api/Voice/recording-callback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Omni.API.Controllers.VoiceController",
+    "Method": "Start",
+    "RelativePath": "api/Voice/Start",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

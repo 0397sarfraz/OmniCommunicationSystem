@@ -23,7 +23,9 @@ namespace Omni.Infrastructure.Services
             var call=await CallResource.CreateAsync(
                 to: new Twilio.Types.PhoneNumber(toNumber),
                 from: new Twilio.Types.PhoneNumber(_configuration["Twilio:FromPhoneNumber"]),
-                url: new Uri($"{_configuration["BaseUrl"]}/api/Voice/Gather-Input")
+                url: new Uri($"{_configuration["BaseUrl"]}/api/Voice/Start"),
+                statusCallback: new Uri($"{_configuration["BaseUrl"]}/api/Voice/call-status"),
+                 statusCallbackEvent: new List<string> { "initiated", "ringing", "answered", "completed" }
             );
             return call.Sid;
         }

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Omni.API\\Omni.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Omni.Web\\Omni.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

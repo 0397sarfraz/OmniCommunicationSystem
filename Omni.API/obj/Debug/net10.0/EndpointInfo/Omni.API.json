@@ -34,7 +34,7 @@
         }
       }
     },
-    "/api/Voice/Gather-Input": {
+    "/api/Voice/Start": {
       "post": {
         "tags": [
           "Voice"
@@ -46,10 +46,55 @@
         }
       }
     },
-    "/api/Voice/ProcessInput": {
+    "/api/Voice/process": {
       "post": {
         "tags": [
           "Voice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Voice/call-status": {
+      "post": {
+        "tags": [
+          "Voice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Voice/recording-callback": {
+      "post": {
+        "tags": [
+          "Voice"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Voice/play-recording": {
+      "get": {
+        "tags": [
+          "Voice"
+        ],
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {

@@ -1,0 +1,99 @@
+﻿@using System.Net
+@inject IConfiguration config
+@model IEnumerable<Omni.Domain.Entities.CallLog>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>Call Logs</h4>
+
+<table id="myTable" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CallSid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FromNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ToNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Duration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RecordingUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Company)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+           
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+   
+   
+            var encodedUrl = WebUtility.UrlEncode(item.RecordingUrl);
+            var audioUrl = $"{config["ApiSettings:BaseUrl"]}/api/Voice/play-recording?url={encodedUrl}";
+
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CallSid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FromNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ToNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Duration)
+                </td>
+                <td>
+                    <audio controls style="width:200px">
+                        <source src="@audioUrl" type="audio/mpeg" />
+                    </audio>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Company.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts{
+    <script>
+        $(document).ready(function(){
+            $("#myTable").DataTable();
+        })
+    </script>
+}

@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Omni.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,8 +7,11 @@ namespace Omni.Persistence.Context
 {
     public class AppDbContext(DbContextOptions<AppDbContext> options):DbContext(options)
     {
-        public DbSet<User> Users { get; set; }
-        public DbSet<Call> Calls { get; set; }
-        public DbSet<Message> Messages { get; set; }
+        public DbSet<Domain.Entities.Company> Companies { get; set; }
+        public DbSet<Domain.Entities.Agent> Agents { get; set; }
+        public DbSet<Domain.Entities.IvrMenu> IvrMenus { get; set; }
+        public DbSet<Domain.Entities.CallLog> CallLogs { get; set; }
+        public DbSet<Domain.Entities.CallAction> CallActions { get; set; }
+
     }
 }

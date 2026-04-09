@@ -15,3 +15,6 @@ C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debu
 C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\refint\Omni.Infrastructure.dll
 C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Infrastructure.pdb
 C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\ref\Omni.Infrastructure.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\obj\Debug\net10.0\Omni.Infrastructure.sourcelink.json
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\bin\Debug\net10.0\Omni.Persistence.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Infrastructure\bin\Debug\net10.0\Omni.Persistence.pdb

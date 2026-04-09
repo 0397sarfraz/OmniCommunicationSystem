@@ -17,3 +17,4 @@ C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Persistence\obj\Debug\n
 C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Persistence\obj\Debug\net10.0\Omni.Persistence.pdb
 C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Persistence\obj\Debug\net10.0\Omni.Persistence.genruntimeconfig.cache
 C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Persistence\obj\Debug\net10.0\ref\Omni.Persistence.dll
+C:\Users\sahma\source\repos\OmniCommunicationSystem\Omni.Persistence\obj\Debug\net10.0\Omni.Persistence.sourcelink.json

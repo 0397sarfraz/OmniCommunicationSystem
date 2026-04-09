@@ -12,6 +12,8 @@ namespace Omni.Infrastructure
         public static IServiceCollection AddInfrastructureDI(this IServiceCollection services)
         {
             services.AddScoped<ITwilioService, TwilioService>();
+            services.AddScoped<ICallService, CallService>();
+            services.AddScoped<IIvrService, IvrService>();
             return services;
         }
     }

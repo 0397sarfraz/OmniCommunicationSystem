@@ -4,4 +4,5 @@
   <Project Path="Omni.Domain/Omni.Domain.csproj" />
   <Project Path="Omni.Infrastructure/Omni.Infrastructure.csproj" />
   <Project Path="Omni.Persistence/Omni.Persistence.csproj" />
+  <Project Path="Omni.Web/Omni.Web.csproj" Id="b76cd8ad-c5c6-4169-b00e-7fd678552f47" />
 </Solution>
